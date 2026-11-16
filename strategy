@@ -1,1 +1,18 @@
-
+--filter-tcp=443 --filter-l7=tls
+--hostlist=/opt/zapret/ipset/meta-x.txt
+--dpi-desync=fake
+--dpi-desync-fooling=md5sig
+--dpi-desync-repeats=1
+--dpi-desync-any-protocol=0
+--dpi-desync-skip-nosni=1
+--dpi-desync-fake-tls=0x1603010046010000420303ba143a43fcdf96df414479065c3a217a9e77342d6e0aba6fad2fb5db80057565000002c02b0100001700000013001100000e7777772e676f6f676c652e636f6d
+--dpi-desync-fake-tls-mod=none
+--new
+--filter-udp=443 --filter-l7=quic
+--hostlist-domains=whatsapp.com,x.com
+--dpi-desync=fake
+--dpi-desync-fooling=none
+--dpi-desync-repeats=1
+--dpi-desync-any-protocol=0
+--dpi-desync-skip-nosni=1
+--dpi-desync-fake-quic=/opt/zapret/fakes/quic_initial_4pda_to.bin
