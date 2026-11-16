@@ -1,4 +1,4 @@
-##fileplacing
+#fileplacing
 
 `meta-x.txt:` /opt/zapret/ipset/meta-x.txt
 
