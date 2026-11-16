@@ -1,3 +1,7 @@
+##fileplacing
+
+`meta-x.txt:` /opt/zapret/ipset/meta-x.txt
+
 ## install dnsmasq cfg
 
 ```set -e
