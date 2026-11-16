@@ -1,0 +1,30 @@
+# Meta
+facebook.com
+facebook.net
+fbcdn.net
+fbsbx.com
+fb.com
+fb.me
+fb.watch
+instagram.com
+cdninstagram.com
+ig.me
+threads.com
+threads.net
+messenger.com
+m.me
+whatsapp.com
+whatsapp.net
+wa.me
+meta.com
+meta.ai
+metacdn.com
+oculus.com
+oculuscdn.com
+metaquest.com
+# X
+x.com
+twitter.com
+t.co
+twimg.com
+twttr.com
